@@ -51,5 +51,7 @@ public class Main {
             total2 += rublesInTheBank;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total2 + " рублей");
         }
+//Task 10
+        
     }
 }
