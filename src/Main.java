@@ -12,6 +12,9 @@ public class Main {
         }
         //Task3
         System.out.println("\nTask 3");
+        for (int i = 0; i <= 17; i += 2) {
+            System.out.println("Четными числами считаются: " + i);
+        }
 
     }
 }
