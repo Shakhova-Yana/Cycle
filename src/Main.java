@@ -30,5 +30,19 @@ public class Main {
         for (int i = 7; i <= 98; i += 7) {
             System.out.println("Последовательность числа: " + i);
         }
+//Task 7
+        System.out.println("\nTask 7");
+        for (int i = 1; i <= 512; i *= 2) {
+            System.out.println("Последовательность числа: " + i);
+        }
+//Task 8
+        System.out.println("\nTask 8");
+        int rublesInTheBank = 29_000;
+        int total = 0;
+        for (int i = 1; i <= 12; i++) {
+            total += rublesInTheBank;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
+        }
+
     }
 }
