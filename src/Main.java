@@ -43,6 +43,13 @@ public class Main {
             total += rublesInTheBank;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
         }
-
+//Task 9
+        System.out.println("\nTask 9");
+        int total2 = 0;
+        for (int i = 0; i <= 12; i++) {
+            total2 += total2 / 100;
+            total2 += rublesInTheBank;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total2 + " рублей");
+        }
     }
 }
