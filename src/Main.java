@@ -20,6 +20,10 @@ public class Main {
         for (int i = 10; i >= -10; i--) {
             System.out.println("Итерация цикла " + i);
         }
-
+//Task 5
+        System.out.println("\nTask 5");
+        for (int i = 1904; i <= 2096; i += 4) {
+            System.out.printf("%s год является високосным\n", i);
+        }
     }
 }
