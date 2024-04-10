@@ -23,6 +23,7 @@ public class Main {
 //Task 5
         System.out.println("\nTask 5");
         for (int i = 1904; i <= 2096; i += 4) {
+            if (i % 100 != 0 || i % 400 == 0);
             System.out.printf("%s год является високосным\n", i);
         }
 //Task 6
@@ -45,11 +46,11 @@ public class Main {
         }
 //Task 9
         System.out.println("\nTask 9");
-        int total2 = 0;
-        for (int i = 0; i <= 12; i++) {
-            total2 += total2 / 100;
-            total2 += rublesInTheBank;
-            System.out.println("Месяц " + i + ", сумма накоплений равна " + total2 + " рублей");
+        int atTheBankWithInterest = 29_000;
+        for (int i = 1; i <= 12; i++) {
+            atTheBankWithInterest += atTheBankWithInterest / 100;
+            atTheBankWithInterest += rublesInTheBank;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + atTheBankWithInterest + " рублей");
         }
 //Task 10
         System.out.println("\nTask 10");
